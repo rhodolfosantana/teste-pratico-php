@@ -4,7 +4,7 @@ O objetivo deste teste é conhecer suas habilidades em:
 
 * PHP, MySQL, HTML, CSS e JavaScript;
 * Entendimento e análise dos requisitos;
-* Normalização de banco de dados;
+* Modelagem de banco de dados;
 * Integração com WebServices;
 
 Deve ser realizado usando o Framework CakePHP versão 2 ou 3 com banco de dados MySQL.
