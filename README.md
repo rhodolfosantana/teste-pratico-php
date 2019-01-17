@@ -49,4 +49,5 @@ Deve ser realizado usando o Framework CakePHP versão 2 ou 3 com banco de dados 
 ## Diferenciais
 
 * Fazer a tela de venda responsiva (que se adapta a diferentes dispositivos);
-* Usar testes unitários para qualquer parte do sistema
+* Usar testes unitários para qualquer parte do sistema;
+* Procure fazer vários commits com mensagens claras;
