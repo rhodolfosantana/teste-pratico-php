@@ -13,9 +13,9 @@ Deve ser realizado usando o Framework CakePHP versão 2 ou 3 com banco de dados 
 
 ### Sistema de Vendas
 
-* O cliente quer registrar vendas de produtos com a data da venda e endereço de entrega.
+* O cliente quer registrar vendas de produtos com a data da venda e endereço de entrega;
 * Deve ser possível buscar produtos pelo nome ou referência;
-* Na medida que vai adicionando os produtos na tela de venda, tem que mostrar em uma tabela o nome, preço e nome do(s) fornecedor(es) do produto adicionado quando existir. Deve também atualizar o valor total da venda; Exemplo:
+* Na medida que vai adicionando os produtos na tela de venda, deve-se listar em uma tabela o nome, preço e nome do(s) fornecedor(es) dos produtos adicionados. Deve também atualizar o valor total da venda. Exemplo:
 
 |  Nome  |  Preço  |  Fornecedor(es)  |
 | ------ | ------- | -----------------|
@@ -26,7 +26,7 @@ Deve ser realizado usando o Framework CakePHP versão 2 ou 3 com banco de dados 
 **Total: 17,50**
 
 
-* Deve ter um campo de CEP do endereço de entrega. Ao preencher esse campo deve buscar automaticamente a UF, nome da cidade, bairro e rua de entrega.
+* Deve ter um campo de CEP do endereço de entrega. Ao preencher esse campo busque automaticamente a UF, nome da cidade, bairro e rua de entrega.
 * Não pode salvar a venda sem informar o endereço completo de entrega;
 * O cliente necessita ter o o histórico completo das vendas, com seus itens, valor total, data e endereço de entrega completo;
 
