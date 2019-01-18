@@ -34,7 +34,7 @@ Deve ser realizado usando o Framework [CakePHP](https://cakephp.org/) versão 2 
 
 * A única tela de cadastro que você precisa fazer é a de vendas, não precisa criar as telas de cadastro de produtos e fornecedores, somente suas tabelas no ER e banco de dados. Popule as tabelas diretamente no banco com INSERT's;
 * Criar um Modelo ER usando Workbench https://www.mysql.com/products/workbench/
-* O cadastro de produtos deve conter nome, referência e preco.  Todos obrigatórios;
+* O cadastro de produtos deve conter nome, referência e preco.  Todos obrigatórios (lembrando que você não vai criar a tela de cadastro, mas deve tratar isso no banco de dados);
 * O banco de dados deve tratar a questão de um produto ter vários fornecedores, você deve criar campos/tabelas para tal;
 * O cadastro de fornecedores só precisa ter nome;
 * O banco de dados não pode permitir 2 produtos com mesma referência;
