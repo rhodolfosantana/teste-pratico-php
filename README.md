@@ -7,7 +7,7 @@ O objetivo deste teste é conhecer suas habilidades em:
 * Modelagem de banco de dados;
 * Integração com WebServices;
 
-Deve ser realizado usando o Framework [CakePHP](https://cakephp.org/) versão 2 ou 3 com banco de dados MySQL.
+A aplicação pode ser feita em PHP puro ou algum framework conhecido no mercado. Banco de dados MySQL ou MariaDB. Será um diferencial se for usado o Framework [CakePHP](https://cakephp.org/) versão 2 ou 3, pois é com ele que você vai trabalhar.
 
 ## Problema
 
