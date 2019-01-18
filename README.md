@@ -7,7 +7,7 @@ O objetivo deste teste é conhecer suas habilidades em:
 * Modelagem de banco de dados;
 * Integração com WebServices;
 
-Deve ser realizado usando o Framework CakePHP versão 2 ou 3 com banco de dados MySQL.
+Deve ser realizado usando o Framework [CakePHP](https://cakephp.org/) versão 2 ou 3 com banco de dados MySQL.
 
 ## Problema
 
@@ -32,6 +32,7 @@ Deve ser realizado usando o Framework CakePHP versão 2 ou 3 com banco de dados 
 
 ## Requisitos
 
+* A única tela de cadastro que você precisa fazer é a de vendas, não precisa criar as telas de cadastro de produtos e fornecedores, somente suas tabelas no ER e banco de dados. Popule as tabelas diretamente no banco com INSERT's;
 * Criar um Modelo ER usando Workbench https://www.mysql.com/products/workbench/
 * O cadastro de produtos deve conter nome, referência e preco.  Todos obrigatórios;
 * O banco de dados deve tratar a questão de um produto ter vários fornecedores, você deve criar campos/tabelas para tal;
@@ -41,13 +42,12 @@ Deve ser realizado usando o Framework CakePHP versão 2 ou 3 com banco de dados 
 * Considere sempre quantidade 1 para cada item adicionado na tela de venda;
 * Deve usar o webservice da ViaCEP para completar o endereço após preencher o campo CEP;
 * Os preços dos produtos sofrem atualização semanal, isso não pode interferir no valor das vendas registradas e de seus produtos. Modele o banco de dados de tal forma a tratar essa questão;
-* A única tela de cadastro que você precisa fazer é a de vendas, não precisa criar as telas de cadastro de produtos e fornecedores, somente suas tabelas no ER e banco de dados. Popule as tabelas diretamente no banco com INSERT's;
 * Faça fork desse projeto e edite este README explicando como devo fazer para criar as tabelas e testar a tela de venda;
 * Todos os arquivos necessários para rodar o projeto devem estar no repositório do github;
 
 
 ## Diferenciais
 
-* Fazer a tela de venda responsiva (que se adapta a diferentes dispositivos);
+* Fazer a tela de venda responsiva (que se adapta a diferentes dispositivos) usando o framework [Bootstrap](https://getbootstrap.com/);
 * Usar testes unitários para qualquer parte do sistema;
 * Procure fazer vários commits com mensagens claras;
