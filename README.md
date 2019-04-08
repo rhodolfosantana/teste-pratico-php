@@ -49,5 +49,6 @@ A aplicação pode ser feita em PHP puro ou algum framework conhecido no mercado
 ## Diferenciais
 
 * Fazer a tela de venda responsiva (que se adapta a diferentes dispositivos) usando o framework [Bootstrap](https://getbootstrap.com/);
+* Utilizar [Docker](https://docs.docker.com/compose/);
 * Usar testes unitários para qualquer parte do sistema;
 * Procure fazer vários commits com mensagens claras;
