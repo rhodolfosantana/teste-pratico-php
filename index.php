@@ -23,7 +23,7 @@
             $stmt = $connection->prepare($sql);
 
             $result = $stmt->execute();
-            $colors = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            $product = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
 
@@ -40,11 +40,11 @@
                 
               </tr>
               
-                <?php foreach($product as $prodo): ?>
+                <?php foreach($product as $prod): ?>
                   <tr>
-                    <td><?php echo $prodo['name_product']; ?></td>
-                    <td><?php echo $prodo['value']; ?></td>
-                    <td><?php echo $prodo['provider']; ?></td>
+                    <td><?php echo $prod['name_product']; ?></td>
+                    <td><?php echo $prod['value']; ?></td>
+                    <td><?php echo $prod['provider']; ?></td>
                     <td><a href="view/view_updateProd.php?id=<?=$prodo['id_product']?>">Editar</a></td>
                     <td><a href="action/action_deleteProd.php?id=<?=$prodo['id_product']?>">Excluir</a><br/></td>
                   </tr>
