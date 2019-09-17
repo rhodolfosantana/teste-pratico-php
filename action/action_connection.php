@@ -1,8 +1,8 @@
 <?php
 
 session_start();
-$user = "root";
-$pass = "root";
+$user = "rodolfo";
+$pass = "123";
 $host = "localhost";
 $db   = "sales";
 

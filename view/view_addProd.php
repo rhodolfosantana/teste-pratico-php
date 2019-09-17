@@ -14,9 +14,9 @@ require_once('../action/action_connection.php');
                     <input type="text" name="nome_produto">
                 </div>
                 <div>
-                     <label for="start">Data de Compra  :</label>
+                     <label for="start">Data de Compra:</label>
 
-                    <input type="date" id="start" name="trip-start"                                        value="2019-09-17"
+                    <input type="date" id="start" name="data"                                        value="2019-09-17"
                     min="2018-01-01" max="2019-09-17">
                 </div>
                 <div>
